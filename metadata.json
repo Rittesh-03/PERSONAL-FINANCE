@@ -1,0 +1,8 @@
+{
+  "name": "Personal Finance Management System",
+  "description": "Modern AI-powered personal finance management system for tracking income, expenses, multi-account balances, budgets, savings goals, and AI-driven financial insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

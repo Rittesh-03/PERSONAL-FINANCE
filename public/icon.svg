@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#022c22" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#10b981" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#10b981" stroke-width="3" stroke-opacity="0.25" stroke-dasharray="8 6" />
+  <!-- Apex Finance Modern Vault / Peak Mark -->
+  <g filter="url(#glow)">
+    <!-- Hexagonal Crest -->
+    <path d="M 256 100 L 388 176 L 388 336 L 256 412 L 124 336 L 124 176 Z" fill="url(#emeraldGrad)" />
+    <!-- Inner Geometric Shapes: Growth Peak & Rupee/Currency Symbol Line -->
+    <path d="M 256 168 L 336 284 L 284 284 L 256 236 L 228 284 L 176 284 Z" fill="#ffffff" />
+    <!-- Dynamic Upward Chevron -->
+    <path d="M 200 324 L 256 364 L 312 324" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
